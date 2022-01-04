@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+// penggunaan data primitive secara aman pada proses concurrent
+
 func TestAtomic(t *testing.T) {
 	var group sync.WaitGroup
 	var counter int64 = 0
